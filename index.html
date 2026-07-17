@@ -6,6 +6,33 @@
 <title>Restoran Ivana — Zlarin</title>
 <meta name="description" content="Restoran Ivana — u srcu otoka Zlarina, uz rivu i trg. Svježa riba dana, plodovi mora, riblji i mesni specijaliteti, pizza. Otok bez automobila, trajektom iz Šibenika.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌅</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Restoran Ivana",
+  "servesCuisine": ["Dalmatinska", "Riba i plodovi mora", "Pizza", "Mediteranska"],
+  "priceRange": "€€",
+  "url": "https://artme-nx.github.io/restoran-ivana-v3/",
+  "telephone": "+385989656374",
+  "email": "restaurant.ivana@gmail.com",
+  "image": "https://artme-nx.github.io/restoran-ivana-v3/img/hero-plata.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kazina 2",
+    "addressLocality": "Zlarin",
+    "postalCode": "22232",
+    "addressRegion": "Šibensko-kninska županija",
+    "addressCountry": "HR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "609",
+    "bestRating": "5"
+  }
+}
+</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -308,7 +335,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
       <a class="link" href="#otok">Otok Zlarin</a>
       <a class="link" href="#galerija">Galerija</a>
       <a class="link" href="#rezervacije">Kontakt</a>
-      <a class="btn-res" href="tel:+385915621610">Rezerviraj stol</a>
+      <a class="btn-res" href="tel:+385989656374">Rezerviraj stol</a>
     </nav>
     <button class="burger" id="burger" aria-label="Izbornik"><span></span><span></span><span></span></button>
   </div>
@@ -322,15 +349,15 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
   <a href="#otok">Otok Zlarin</a>
   <a href="#galerija">Galerija</a>
   <a href="#rezervacije">Kontakt</a>
-  <a class="serif-tag" href="tel:+385915621610">Rezerviraj stol →</a>
+  <a class="serif-tag" href="tel:+385989656374">Rezerviraj stol →</a>
 </div>
 
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero-slides" id="heroSlides">
-    <div class="hero-slide active" style="background-image:url('https://loremflickr.com/1600/1000/island,sea,adriatic?lock=11')"></div>
-    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1600/1000/boat,harbor,coast?lock=22')"></div>
-    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1600/1000/sunset,sea,dalmatia?lock=33')"></div>
+    <div class="hero-slide active" style="background-image:url('img/hero-plata.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/hero-pizza.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/hero-lignje.webp')"></div>
   </div>
   <div class="hero-overlay"></div>
   <div class="wrap hero-content">
@@ -366,7 +393,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
     </div>
     <div class="cards3">
       <article class="card reveal">
-        <div class="card-img"><img loading="lazy" src="https://loremflickr.com/700/600/grilled,fish?lock=41" alt="Svježa riba dana"></div>
+        <div class="card-img"><img loading="lazy" src="img/riba.webp" alt="Svježa riba dana s krumpirom"></div>
         <div class="card-body">
           <span class="num">01</span>
           <h3>Svježa riba dana</h3>
@@ -374,7 +401,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
         </div>
       </article>
       <article class="card reveal">
-        <div class="card-img"><img loading="lazy" src="https://loremflickr.com/700/600/seafood,shellfish?lock=42" alt="Plodovi mora"></div>
+        <div class="card-img"><img loading="lazy" src="img/skampi.webp" alt="Plodovi mora — škampi"></div>
         <div class="card-body">
           <span class="num">02</span>
           <h3>Plodovi mora</h3>
@@ -382,7 +409,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
         </div>
       </article>
       <article class="card reveal">
-        <div class="card-img"><img loading="lazy" src="https://loremflickr.com/700/600/pizza,grilled,meat?lock=43" alt="Pizza i meso"></div>
+        <div class="card-img"><img loading="lazy" src="img/meso.webp" alt="Mesni specijaliteti s roštilja"></div>
         <div class="card-body">
           <span class="num">03</span>
           <h3>Pizza &amp; mesni specijaliteti</h3>
@@ -418,14 +445,14 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
         <div class="menu-item"><div class="mi-name">Rožata</div><div class="mi-desc">Domaći desert za kraj</div></div>
       </div>
     </div>
-    <p class="menu-note reveal">Jelovnik se mijenja prema ulovu i sezoni — za današnju ponudu javite se na +385 91 562 1610.</p>
+    <p class="menu-note reveal">Jelovnik se mijenja prema ulovu i sezoni — za današnju ponudu javite se na +385 98 965 6374.</p>
   </div>
 </section>
 
 <!-- OTOK ZLARIN -->
 <section class="otok" id="otok">
   <div class="wrap otok-grid">
-    <div class="otok-img reveal"><img loading="lazy" src="https://loremflickr.com/900/1000/island,green,coast?lock=51" alt="Otok Zlarin"></div>
+    <div class="otok-img reveal"><img loading="lazy" src="img/terasa.webp" alt="Terasa restorana Ivana uz trg i rivu"></div>
     <div class="otok-txt">
       <span class="eyebrow reveal">Otok Zlarin</span>
       <h2 class="reveal">Zeleni otok koralja, bez automobila</h2>
@@ -451,12 +478,12 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
   </div>
   <div class="swiper gswiper" id="gallerySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/boat,harbor?lock=61" alt="Luka Zlarin"></div><div class="gcap">Luka i brodice pred restoranom</div></div>
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/grilled,fish?lock=62" alt="Riba s gradela"></div><div class="gcap">Riba dana s gradela</div></div>
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/sunset,sea?lock=63" alt="Zalazak nad morem"></div><div class="gcap">Zalazak s terase</div></div>
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/seafood?lock=64" alt="Plodovi mora"></div><div class="gcap">Plodovi mora, svježi svaki dan</div></div>
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/adriatic,coast?lock=65" alt="Jadranska obala"></div><div class="gcap">Kameni trg i riva</div></div>
-      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="https://loremflickr.com/800/600/island,sea?lock=66" alt="Otok i more"></div><div class="gcap">Zeleni otok Zlarin</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/pizza2.webp" alt="Pizza iz krušne peći"></div><div class="gcap">Pizza iz peći</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/hobotnica.webp" alt="Hobotnica s gradela"></div><div class="gcap">Hobotnica s gradela</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/buzara.webp" alt="Dagnje na buzaru"></div><div class="gcap">Buzara od školjki</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/juha.webp" alt="Riblja juha"></div><div class="gcap">Riblja juha</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/salata.webp" alt="Sezonska miješana salata"></div><div class="gcap">Sezonska salata</div></div>
+      <div class="swiper-slide"><div class="gslide"><img loading="lazy" src="img/fritura.webp" alt="Fritura — mali plavi ulov i lignje"></div><div class="gcap">Fritura</div></div>
     </div>
   </div>
 </section>
@@ -469,7 +496,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
       <h2>Rezervirajte svoj stol uz more</h2>
       <p>Najljepši stolovi gledaju na luku i trg, a ljeti se brzo popune. Nazovite nas i rezervirajte termin — rado ćemo vas dočekati.</p>
       <div class="rez-cta">
-        <a class="btn-big btn-fill" href="tel:+385915621610">Rezerviraj stol</a>
+        <a class="btn-big btn-fill" href="tel:+385989656374">Rezerviraj stol</a>
         <a class="btn-big btn-ghost" href="mailto:restaurant.ivana@gmail.com">Pošalji upit</a>
       </div>
     </div>
@@ -478,7 +505,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
       <div class="hours-row"><span>Ponedjeljak – Nedjelja</span><span>12:00 – 24:00</span></div>
       <div class="hours-row"><span>Kuhinja</span><span>do 23:00</span></div>
       <div class="hours-row"><span>Sezona</span><span>svibanj – listopad</span></div>
-      <div class="contact-line"><span class="ic">☎</span><a href="tel:+385915621610">+385 91 562 1610</a></div>
+      <div class="contact-line"><span class="ic">☎</span><a href="tel:+385989656374">+385 98 965 6374</a></div>
       <div class="contact-line"><span class="ic">✉</span><a href="mailto:restaurant.ivana@gmail.com">restaurant.ivana@gmail.com</a></div>
       <div class="contact-line"><span class="ic">📍</span><span>Zlarin, otok Zlarin · Dalmacija</span></div>
     </div>
@@ -521,7 +548,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
       <div>
         <h4>Kontakt</h4>
         <ul>
-          <li><a href="tel:+385915621610">+385 91 562 1610</a></li>
+          <li><a href="tel:+385989656374">+385 98 965 6374</a></li>
           <li><a href="mailto:restaurant.ivana@gmail.com">restaurant.ivana@gmail.com</a></li>
           <li>Zlarin, Dalmacija</li>
           <li>Trajekt iz Šibenika</li>
@@ -537,7 +564,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.05;letter
 
 <!-- STICKY BOTTOM BAR (mobile) -->
 <div class="sticky-bar">
-  <a class="sb-call" href="tel:+385915621610">Rezerviraj stol</a>
+  <a class="sb-call" href="tel:+385989656374">Rezerviraj stol</a>
   <a class="sb-map" href="#lokacija">Lokacija</a>
 </div>
 
